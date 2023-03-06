@@ -1,0 +1,19 @@
+body {
+    background: orange;
+    padding: 0;
+    margin: 0;
+}
+
+.section1 {
+    background: green;
+    margin: 0;
+
+}
+
+h1 {
+    color: red;
+}
+
+.specificated {
+    color: blue;
+}
