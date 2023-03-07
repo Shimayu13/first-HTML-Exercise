@@ -1,0 +1,88 @@
+.news:hover {
+    background: whitesmoke;
+    color: black;
+}
+
+.section2 {
+    display: flex;
+    width: 40vw;
+    height: 30vw;
+    margin: 0;
+    padding-left: 20vw;
+}
+
+.base {
+    display: flex;
+    width: 40vw;
+    height: 30vw;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+    color: white;
+}
+
+.news1 {
+    background: url(news1.HEIC);
+    background-position: center;
+    background-size: cover;
+}
+
+.news2 {
+    background: url(news2.HEIC);
+    background-position: center;
+    background-size: cover;
+}
+
+.section3 {
+    display: flex;
+    width: 40vw;
+    height: 30vw;
+    margin: 0;
+    padding-left: 20vw;
+}
+
+.news3 {
+    background: url(news3.HEIC);
+    background-position: center;
+    background-size: cover;
+}
+
+.news4 {
+    background: url(news4.HEIC);
+    background-position: center;
+    background-size: cover;
+}
+
+.base:hover {
+    background: gray;
+    opacity: 0.5;
+    color: whitesmoke;
+    width: 40vw;
+    border-radius: 1vw;
+    background-color: whitesmoke;
+}
+
+.news1:hover {
+    background: url(news1.HEIC);
+    background-position: center;
+    background-size: cover;
+}
+
+.news2:hover {
+    background: url(news2.HEIC);
+    background-position: center;
+    background-size: cover;
+}
+
+.news3:hover {
+    background: url(news3.HEIC);
+    background-position: center;
+    background-size: cover;
+}
+
+.news4:hover {
+    background: url(news4.HEIC);
+    background-position: center;
+    background-size: cover;
+}
