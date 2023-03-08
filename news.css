@@ -3,12 +3,19 @@
     color: black;
 }
 
-.section2 {
-    display: flex;
-    width: 40vw;
-    height: 30vw;
-    margin: 0;
-    padding-left: 20vw;
+h1 {
+    padding-left: 2vw;
+}
+
+main {}
+.submenu {
+    height: 12vw;
+    width: 17vw;
+}
+
+.submenu div {
+    height: 3vw;
+    width: 17vw;
 }
 
 .base {
@@ -20,6 +27,117 @@
     justify-content: center;
     flex: auto;
     color: white;
+}
+
+.section2 {
+    width: 100vw;
+    height: 30vw;
+}
+
+.section3 {
+    width: 80vw;
+    height: 30vw;
+    padding-left: 19vw;
+}
+
+.base:hover {
+    width: 40vw;
+}
+
+@media screen and (max-width: 800px) {
+    .section2 .submenu {
+        display: none;
+    }
+
+    .submenu {
+        height: 40vw;
+        width: 24vw;
+    }
+
+    .submenu div {
+        height: 10vw;
+        width: 24vw;
+    }
+
+    .base {
+        display: flex;
+        width: 96vw;
+        height: 54vw;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        flex: auto;
+        color: white;
+    }
+
+    .section2 {
+        flex-flow: column;
+        width: 96vw;
+        height: 108vw;
+        padding-left: 2vw;
+    }
+
+    .section3 {
+        flex-flow: column;
+        width: 96vw;
+        height: 108vw;
+        padding-left: 2vw;
+    }
+
+    .base:hover {
+        width: 96vw;
+    }
+}
+
+.submenu {
+    display: flexbox;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.submenu div {
+    display: flexbox;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.submenu div:last-child {
+    border-bottom: none;
+}
+
+.submenu div:hover {
+    background-color: beige;
+}
+
+.submenu div a {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 10vw;
+    text-decoration: none;
+    color: black;
+}
+
+.base {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+    color: white;
+}
+
+.section2 {
+    display: flex;
+    margin: 0;
+}
+
+.section3 {
+    display: flex;
+    margin: 0;
 }
 
 .news1 {
@@ -34,14 +152,6 @@
     background-size: cover;
 }
 
-.section3 {
-    display: flex;
-    width: 40vw;
-    height: 30vw;
-    margin: 0;
-    padding-left: 20vw;
-}
-
 .news3 {
     background: url(news3.HEIC);
     background-position: center;
@@ -54,13 +164,42 @@
     background-size: cover;
 }
 
+.base {
+    animation-name: animation1;
+    animation-duration: 0.3s;
+}
+
+@keyframes animation1 {
+    0% {
+        opacity: 0.5;
+        border-radius: 3vw;
+    }
+
+    100% {
+        opacity: 1;
+        border-radius: 0;
+    }
+}
+
 .base:hover {
-    background: gray;
+    animation-name: animation;
+    animation-duration: 0.3s;
     opacity: 0.5;
-    color: whitesmoke;
-    width: 40vw;
-    border-radius: 1vw;
+    color: black;
+    border-radius: 3vw;
     background-color: whitesmoke;
+}
+
+@keyframes animation {
+    0% {
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100% {
+        opacity: 0.5;
+        border-radius: 3vw;
+    }
 }
 
 .news1:hover {
