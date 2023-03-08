@@ -11,10 +11,33 @@
     margin: 0;
 }
 
+main {}
+.card1 {
+    width: 46vw;
+}
+
+.card2 {
+    width: 46vw;
+}
+
+
+@media screen and (max-width: 800px) {
+    .section2{
+        flex-flow: column;
+    }
+
+    .card1 {
+        width: 94vw;
+    }
+    
+    .card2 {
+        width: 94vw;
+    }
+}
+
 .card1 {
     display: flex;
     border: 1px solid gray;
-    width: 46vw;
     border-radius: 1vw;
     background-color: whitesmoke;
     margin: 3vw;
@@ -37,7 +60,6 @@
 .card2 {
     display: flex;
     border: 1px solid gray;
-    width: 46vw;
     border-radius: 1vw;
     background-color: whitesmoke;
     margin: 3vw;
