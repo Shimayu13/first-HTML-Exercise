@@ -20,7 +20,6 @@ main {}
     width: 46vw;
 }
 
-
 @media screen and (max-width: 800px) {
     .section2{
         flex-flow: column;
