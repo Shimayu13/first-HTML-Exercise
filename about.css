@@ -5,12 +5,15 @@
 
 .title1 {
     padding-left: 5vw;
+    color: green;
 }
 
 main {}
 .section2 {
-    width: 40vw;
-    height: 390vw;
+    position: relative;
+    display: flex;
+    width: 90vw;
+    height: 33vw;
     padding-left: 5vw;
 }
 
@@ -23,8 +26,10 @@ main {}
 
 @media screen and (max-width: 800px) {
     .section2 {
+        display: flex;
+        flex-flow: column; 
         width: 90vw;
-        height: 580vw;
+        height: 94vw;
         padding-left: 2vw;
     }
 
@@ -41,9 +46,16 @@ main {}
     align-items: center;
     justify-content: center;
     flex: auto;
-    color: white;
+    color:white;
 }
 
+.train:hover {
+    animation-duration: 0.3s;
+    color: black;
+    opacity: 0.5;
+    border-radius: 3vw;
+    background-color: whitesmoke;
+}
 
 .E235_1000 {
     background: url(E235_1000.jpg);
@@ -117,7 +129,7 @@ main {}
 
 .E231_1000 {
     background: url(E231_1000.jpg);
-    background-position: center;
+    background-position: cover;
     background-size: cover;
     margin: 3vw;
 }
@@ -131,6 +143,27 @@ main {}
 
 .E231_0 {
     background: url(E231_0.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E231_3000 {
+    background: url(E231_3000.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E531 {
+    background: url(E531.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E217 {
+    background: url(E217.jpg);
     background-position: center;
     background-size: cover;
     margin: 3vw;
