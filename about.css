@@ -2,3 +2,136 @@
     background: whitesmoke;
     color: black;
 }
+
+.title1 {
+    padding-left: 5vw;
+}
+
+main {}
+.section2 {
+    width: 40vw;
+    height: 390vw;
+    padding-left: 5vw;
+}
+
+.train {
+    width: 40vw;
+    height: 30vw;
+    border-radius: 3vw;
+    border: 2px solid gray;
+}
+
+@media screen and (max-width: 800px) {
+    .section2 {
+        width: 90vw;
+        height: 580vw;
+        padding-left: 2vw;
+    }
+
+    .train {
+        width: 90vw;
+        height: 40vw;
+        border-radius: 6vw;
+        border: 3px solid gray;
+    }
+}
+.train {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+    color: white;
+}
+
+
+.E235_1000 {
+    background: url(E235_1000.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E235_0 {
+    background: url(E235_0.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E233_8000 {
+    background: url(E233_8000.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E233_7000 {
+    background: url(E233_7000.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E233_6000 {
+    background: url(E233_6000.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E233_5000 {
+    background: url(E233_5000.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E233_3000 {
+    background: url(E233_3000.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E233_2000 {
+    background: url(E233_2000.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E233_1000 {
+    background: url(E233_1000.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E233_0 {
+    background: url(E233_0.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E231_1000 {
+    background: url(E231_1000.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E231_500 {
+    background: url(E231_500.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.E231_0 {
+    background: url(E231_0.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3vw;
+}
