@@ -4,6 +4,22 @@ body {
     margin: 0;
 }
 
+.header-nav-wrapper {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100vw;
+}
+
+.main-wrapper {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 90px;
+    width: 100vw;
+}
+
 .header {
     display: flex;
     background: skyblue;
@@ -24,10 +40,9 @@ body {
     display: flex;
     justify-content: space-around;
     width: auto;
-    height:auto;
+    height: auto;
     margin: 0;
 }
-
 
 a {
     text-decoration: none;
