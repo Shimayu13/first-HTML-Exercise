@@ -1,4 +1,5 @@
 .Moji1 {
+    padding: 20px;
     padding-left: 5vw;
     color: blue;
 }
@@ -14,16 +15,17 @@ table {
 
 .picture {
     height: 7.2vw;
+    position: sticky;
+    top: 90px;
+    z-index: 1;
+    background-color: skyblue;
 }
 
 .number {
     height: 3vw;
     background-color: whitesmoke;
-}
-
-th {
     position: sticky;
-    top: 0;
+    top: 200px;
     z-index: 1;
 }
 
@@ -44,18 +46,24 @@ th, td {
     background: url(E235_1000_1.PNG);
     background-position: center;
     background-size: cover;
+    background-color: skyblue;
+    width: 8vw;
 }
 
 .E235_1000_2 { 
     background: url(E235_1000_2.PNG);
     background-position: center;
     background-size: cover;
+    background-color: skyblue;
+    width: 8vw;
 }
 
 .E235_1000_3 { 
     background: url(E235_1000_3.PNG);
     background-position: center;
     background-size: cover;
+    background-color: skyblue;
+    width: 8vw;
 }
 
 .E235_1000_4 { 
@@ -63,6 +71,8 @@ th, td {
     background: url(E235_1000_4.PNG);
     background-position: center;
     background-size: cover;
+    background-color: skyblue;
+    width: 8.2vw;
 }
 
 .E235_1000_5 { 
@@ -70,28 +80,38 @@ th, td {
     background: url(E235_1000_5.PNG);
     background-position: center;
     background-size: cover;
+    background-color: skyblue;
+    width: 8.2vw;
 }
 
 .E235_1000_6 { 
     background: url(E235_1000_6.PNG);
     background-position: center;
     background-size: cover;
+    background-color: skyblue;
+    width: 8vw;
 }
 
 .E235_1000_7 { 
     background: url(E235_1000_7.PNG);
     background-position: center;
     background-size: cover;
+    background-color: skyblue;
+    width: 8vw;
 }
 
 .E235_1000_8 { 
     background: url(E235_1000_8.PNG);
     background-position: center;
     background-size: cover;
+    background-color: skyblue;
+    width: 8vw;
 }
 
 .E235_1000_9 { 
     background: url(E235_1000_9.PNG);
     background-position: center;
     background-size: cover;
+    background-color: skyblue;
+    width: 8vw;
 }

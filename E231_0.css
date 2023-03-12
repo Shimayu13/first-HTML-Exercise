@@ -1,0 +1,83 @@
+.Moji1 {
+    padding: 20px;
+    padding-left: 5vw;
+    color: blue;
+}
+
+table {
+    padding-left: 5vw;
+}
+
+.Midashi {
+    border-spacing: 8vw;
+    border-collapse: collapse;
+  }
+
+.picture {
+    height: 8.1vw;
+    position: sticky;
+    top: 90px;
+    z-index: 1;
+    background-color: skyblue;
+}
+
+.number {
+    height: 3vw;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 200px;
+    z-index: 1;
+}
+
+td {
+    height: 3vw;
+}
+
+th, td {
+    border: 1px solid black;
+    width: 9vw;
+}
+
+.nu {
+    width: 2vw
+}
+
+.E231_0_1 { 
+    background: url(E231_0_1.PNG);
+    background-position: center;
+    background-size: cover;
+    background-color: skyblue;
+    width: 9vw;
+}
+
+.E231_0_2 { 
+    background: url(E231_0_2.PNG);
+    background-position: center;
+    background-size: cover;
+    background-color: skyblue;
+    width: 9vw;
+}
+
+.E231_0_3 { 
+    background: url(E231_0_3.PNG);
+    background-position: center;
+    background-size: cover;
+    background-color: skyblue;
+    width: 9vw;
+}
+
+.E231_0_4 {
+    background: url(E231_0_4.PNG);
+    background-position: center;
+    background-size: cover;
+    background-color: skyblue;
+    width: 9vw;
+}
+
+.E231_0_5 {
+    background: url(E231_0_5.PNG);
+    background-position: center;
+    background-size: cover;
+    background-color: skyblue;
+    width: 9vw;
+}
