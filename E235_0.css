@@ -1,7 +1,7 @@
 .Moji1 {
     padding: 20px;
     padding-left: 5vw;
-    color: blue;
+    color: greenyellow;
 }
 
 table {
@@ -14,7 +14,7 @@ table {
   }
 
 .picture {
-    height: 8.1vw;
+    height: 7.2vw;
     position: sticky;
     top: 90px;
     z-index: 1;
@@ -34,7 +34,7 @@ td {
 }
 
 th, td {
-    width: 9vw;
+    width: 8vw;
     background-color: aliceblue;
 }
 
@@ -42,42 +42,58 @@ th, td {
     width: 2vw
 }
 
-.E231_0_1 { 
-    background: url(E231_0_1.PNG);
+.E235_0_1 { 
+    background: url(E235_0_1.PNG);
     background-position: center;
     background-size: cover;
     background-color: skyblue;
-    width: 9vw;
+    width: 8vw;
 }
 
-.E231_0_2 { 
-    background: url(E231_0_2.PNG);
+.E235_0_2 { 
+    background: url(E235_0_2.PNG);
     background-position: center;
     background-size: cover;
     background-color: skyblue;
-    width: 9vw;
+    width: 8vw;
 }
 
-.E231_0_3 { 
-    background: url(E231_0_3.PNG);
+.E235_0_3 { 
+    background: url(E235_0_3.PNG);
     background-position: center;
     background-size: cover;
     background-color: skyblue;
-    width: 9vw;
+    width: 8vw;
 }
 
-.E231_0_4 {
-    background: url(E231_0_4.PNG);
+.E235_0_4 { 
+    background: url(E235_0_4.PNG);
     background-position: center;
     background-size: cover;
     background-color: skyblue;
-    width: 9vw;
+    width: 8vw;
 }
 
-.E231_0_5 {
-    background: url(E231_0_5.PNG);
+.E235_0_5 { 
+    background: url(E235_0_5.PNG);
     background-position: center;
     background-size: cover;
     background-color: skyblue;
-    width: 9vw;
+    width: 8.2vw;
+}
+
+.E235_0_6 { 
+    background: url(E235_0_6.PNG);
+    background-position: center;
+    background-size: cover;
+    background-color: skyblue;
+    width: 8vw;
+}
+
+.E235_0_7 { 
+    background: url(E235_0_7.PNG);
+    background-position: center;
+    background-size: cover;
+    background-color: skyblue;
+    width: 8vw;
 }
