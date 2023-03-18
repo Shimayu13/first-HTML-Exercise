@@ -1,0 +1,73 @@
+.home:hover {
+    background: whitesmoke;
+    color: black;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height:auto;
+    margin: 0;
+}
+
+.card3{
+    display: flex;
+    width: 80vw;
+    height: 13vw;
+    padding-left: 1vw;
+}
+
+.new{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 2vw;
+    border: 2px solid gray;
+    margin: 2vw;
+}
+
+.soutetsu{
+    background: url(sotetsu.PNG);
+    background-position: center;
+    background-size: cover;
+}
+
+.tokyu {
+    background: url(tokyu.PNG);
+    background-position: center;
+    background-size: cover;
+}
+
+.jreast{
+    background: url(jreast.PNG);
+    background-position: center;
+    background-size: cover;
+}
+
+.tsubway {
+    background: url(tsubway.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+.tmetro{
+    background: url(tmetro.PNG);
+    background-position: center;
+    background-size: cover;
+}
+
+.tobu{
+    background: url(tobu.PNG);
+    background-position: center;
+    background-size: cover;
+}
+
+.seibu{
+    background: url(seibu.PNG);
+    background-position: center;
+    background-size: cover;
+}
+
+.buck,h1 {
+    padding-left: 3vw;
+}
