@@ -1,4 +1,4 @@
-.homes:hover {
+.app:hover {
     background: whitesmoke;
     color: black;
 }
@@ -52,14 +52,7 @@ main {}
     background-color: whitesmoke;
 }
 
-.new:hover {
-    animation-duration: 0.3s;
-    color: black;
-    opacity: 0.5;
-    background-color: whitesmoke;
-}
-
-.soutetsu{
+.soutetsu {
     background: url(sotetsu.PNG);
     background-position: center;
     background-size: cover;
@@ -71,7 +64,7 @@ main {}
     background-size: cover;
 }
 
-.jreast{
+.jreast {
     background: url(jreast.PNG);
     background-position: center;
     background-size: cover;
@@ -83,24 +76,25 @@ main {}
     background-size: cover;
 }
 
-.tmetro{
+.tmetro {
     background: url(tmetro.PNG);
     background-position: center;
     background-size: cover;
 }
 
-.tobu{
+.tobu {
     background: url(tobu.PNG);
     background-position: center;
     background-size: cover;
 }
 
-.seibu{
+.seibu {
     background: url(seibu.PNG);
     background-position: center;
     background-size: cover;
 }
 
-.buck,h1 {
+.buck,
+h1 {
     padding-left: 3vw;
 }
