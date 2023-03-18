@@ -1,0 +1,75 @@
+.map:hover {
+    background: whitesmoke;
+    color: black;
+}
+
+.card1{
+    width: 90vw;
+    height: 331vw;
+}
+
+.map1{
+    border: 2px solid gray;
+    padding-left: 10vw;
+    margin: 5vw;
+}
+
+.soutetsu1 {
+    background-image: url(sotetsu_map.PNG);
+    width: 80vw;
+    height: 30vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.tokyu1 {
+    background-image: url(tokyu_map.jpg);
+    width: 80vw;
+    height: 65vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.jreast1 {
+    background-image: url(jreast_map.jpg);
+    width: 80vw;
+    height: 60vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.subway1 {
+    background-image: url(subway_map.jpg);
+    width: 80vw;
+    height: 70vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.seibu1 {
+    background-image: url(seibu_map.jpg);
+    width: 80vw;
+    height: 54.2vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.tobu1 {
+    background-image: url(tobu_map.jpg);
+    width: 80vw;
+    height: 40vw;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.map1:hover {
+    animation-duration: 0.3s;
+    color: black;
+    opacity: 0.5;
+    background-color: whitesmoke;
+}
+
+h1, h3 {
+    padding-left: 3vw;
+}
